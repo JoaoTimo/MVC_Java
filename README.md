@@ -20,18 +20,17 @@ O Model encapsula a lógica central da aplicação e as interações com a camad
  2. Apresentação de Dados: Formata e exibe informações recebidas do Model.
  3. Interatividade: Permite que os usuários interajam com a aplicação, capturando entradas e eventos.
 
-**Como funciona:**
-
---Recebendo Dados:
+**Como funciona: **
+ - Recebendo Dados:
 A View obtém dados do Controller, que é responsável por buscar as informações no Model.
 
- --Renderização:
+ - Renderização:
 Após receber os dados, a View os apresenta em um formato visual (por exemplo, HTML em aplicações web).
 
- --Interação do Usuário:
+ - Interação do Usuário:
 Captura eventos de interação (cliques, envios de formulários) e os envia ao Controller para processamento.
 
- --Atualizações Dinâmicas:
+ - Atualizações Dinâmicas:
 Em aplicações web, pode atualizar a interface dinamicamente (ex.: usando AJAX) sem recarregar a página.
 
 ### Controller:
