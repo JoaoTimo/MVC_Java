@@ -1,5 +1,4 @@
-# Pesquisa sobre conceitos em {LINGUAGEM_DE_PROGRAMAÇÃO}
-
+# Pesquisa sobre conceitos em Java
 ## MVC 
 
 ### Model:
