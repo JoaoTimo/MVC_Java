@@ -21,7 +21,8 @@ O Model encapsula a lógica central da aplicação e as interações com a camad
  3. Interatividade: Permite que os usuários interajam com a aplicação, capturando entradas e eventos.
 
 **Como funciona:**
- --Recebendo Dados:
+
+--Recebendo Dados:
 A View obtém dados do Controller, que é responsável por buscar as informações no Model.
 
  --Renderização:
