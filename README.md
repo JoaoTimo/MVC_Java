@@ -15,12 +15,12 @@ O Model encapsula a lógica central da aplicação e as interações com a camad
 - Notifica mudanças de estado para que a **View** seja atualizada.
 
 ### View: 
-**O que é: **
+**O que é:**
  1. Interface do Usuário: A View é a parte da aplicação que o usuário vê e interage.
  2. Apresentação de Dados: Formata e exibe informações recebidas do Model.
  3. Interatividade: Permite que os usuários interajam com a aplicação, capturando entradas e eventos.
 
-**Como funciona: **
+**Como funciona:**
  --Recebendo Dados:
 A View obtém dados do Controller, que é responsável por buscar as informações no Model.
 
