@@ -34,8 +34,21 @@ Captura eventos de interação (cliques, envios de formulários) e os envia ao C
 Em aplicações web, pode atualizar a interface dinamicamente (ex.: usando AJAX) sem recarregar a página.
 
 ### Controller:
-**O que é: **
-**Como funciona: **
+**O que é:**
+
+A camada de controle (Controller) no padrão MVC (Model-View-Controller) é o componente que gerencia o fluxo de dados entre a interface de usuário (View) e a lógica de negócio (Model). Sua função principal é receber as requisições dos usuários, processar essas requisições de acordo com as regras da aplicação e determinar qual será a resposta apropriada, interagindo diretamente com a camada de modelo para realizar operações sobre os dados.
+
+**Como funciona:**
+
+#### Funções da Camada Controller:
+
+1. **Receber Requisições:** O Controller intercepta as requisições HTTP feitas pelos usuários, identifica o que foi solicitado e direciona a ação correta com base na URL e nos parâmetros.
+
+2. **Processar Requisições:** Ele chama métodos da camada Model para realizar operações de negócios, como inserir, atualizar ou buscar dados, delegando a lógica de negócios para o Model.
+
+3. **Gerenciar Respostas:** Após o processamento, o Controller escolhe qual página (View) será exibida ou redireciona o usuário, enviando dados para a interface se necessário.
+
+4. **Validação e Autenticação:** Verifica se os dados de entrada são válidos e controla o acesso do usuário, garantindo que apenas usuários autenticados realizem certas ações.
 
 ### REST
 **O que é: **
