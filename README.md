@@ -59,26 +59,26 @@ Em uma aplicação Java, essa camada é geralmente implementada com Servlets ou 
 
 **Como funciona:**
 
-### RECURSOS
+ - RECURSOS
 Os recursos são identificáveis por URIs (Uniform Resource Identifiers). Cada recurso tem uma URL única, que permite o acesso e a manipulação.
 
-### MÉTODOS HTTP
+ - MÉTODOS HTTP
 
 As interações com esses recursos são realizadas por meio de métodos HTTP, como GET (para recuperar dados), POST (para criar novos recursos), PUT (para atualizar recursos existentes), PATCH (para atualizações parciais) e DELETE (para remover recursos).
 
-### STATELESS
+ - STATELESS
 
 Uma característica importante do REST é que ele é stateless, ou seja, cada requisição é independente e contém todas as informações necessárias, sem que o servidor armazene estado entre elas.
 
-### REPRESENTAÇÕES
+ - REPRESENTAÇÕES
 
 Os dados podem ser retornados em diferentes formatos, como JSON ou XML, permitindo flexibilidade na comunicação entre cliente e servidor.
 
-### CACHE
+ - CACHE
 
 O uso de cache pode otimizar o desempenho das APIs, armazenando respostas e evitando requisições desnecessárias ao servidor.
 
-### HATEOAS
+ - HATEOAS
 
 O conceito de HATEOAS permite que o servidor forneça links nas respostas, ajudando os clientes a descobrir interações disponíveis e facilitando a navegação pela API.
 
