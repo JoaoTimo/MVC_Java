@@ -1,7 +1,7 @@
 # Pesquisa sobre conceitos em Java
 ## MVC 
 
-### Model
+### Model (Lucca)
 
 **O que é**:  
 O Model representa a lógica de negócio e os dados do aplicativo. Ele é responsável por gerenciar as regras de negócio, acessar e armazenar informações, e, de forma geral, manter o estado da aplicação.
@@ -14,7 +14,7 @@ O Model encapsula a lógica central da aplicação e as interações com a camad
 - Interage com o banco de dados ou serviços externos.
 - Notifica mudanças de estado para que a **View** seja atualizada.
 
-### View: 
+### View (João)
 **O que é:**
  1. Interface do Usuário: A View é a parte da aplicação que o usuário vê e interage.
  2. Apresentação de Dados: Formata e exibe informações recebidas do Model.
@@ -33,7 +33,7 @@ Captura eventos de interação (cliques, envios de formulários) e os envia ao C
  - Atualizações Dinâmicas:
 Em aplicações web, pode atualizar a interface dinamicamente (ex.: usando AJAX) sem recarregar a página.
 
-### Controller:
+### Controller (Eduardo)
 **O que é:**
 
 A camada de controle (Controller) no padrão MVC (Model-View-Controller) é o componente que gerencia o fluxo de dados entre a interface de usuário (View) e a lógica de negócio (Model). Sua função principal é receber as requisições dos usuários, processar essas requisições de acordo com as regras da aplicação e determinar qual será a resposta apropriada, interagindo diretamente com a camada de modelo para realizar operações sobre os dados.
@@ -52,7 +52,7 @@ Em uma aplicação Java, essa camada é geralmente implementada com Servlets ou 
 
 4. **Validação e Autenticação:** Verifica se os dados de entrada são válidos e controla o acesso do usuário, garantindo que apenas usuários autenticados realizem certas ações.
 
-### REST
+### REST (Rhawan)
 **O que é:**
 
 É um estilo arquitetônico. Ele se fundamenta em princípios que visam facilitar a interação e a comunicação entre sistemas distribuídos, especialmente na web. REST é amplamente utilizado para criar APIs que permitem que diferentes aplicativos se comuniquem de maneira eficiente e escalável.
