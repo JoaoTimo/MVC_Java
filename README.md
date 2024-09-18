@@ -16,9 +16,9 @@ O Model encapsula a lógica central da aplicação e as interações com a camad
 
 ### View: 
 **O que é: **
- # Interface do Usuário: A View é a parte da aplicação que o usuário vê e interage.
- # Apresentação de Dados: Formata e exibe informações recebidas do Model.
- # Interatividade: Permite que os usuários interajam com a aplicação, capturando entradas e eventos.
+  Interface do Usuário: A View é a parte da aplicação que o usuário vê e interage.
+  Apresentação de Dados: Formata e exibe informações recebidas do Model.
+  Interatividade: Permite que os usuários interajam com a aplicação, capturando entradas e eventos.
 
 **Como funciona: **
  #Recebendo Dados:
@@ -51,9 +51,31 @@ A camada de controle (Controller) no padrão MVC (Model-View-Controller) é o co
 4. **Validação e Autenticação:** Verifica se os dados de entrada são válidos e controla o acesso do usuário, garantindo que apenas usuários autenticados realizem certas ações.
 
 ### REST
-**O que é: **
-**Como funciona: **
+**O que é:**
+É um estilo arquitetônico. Ele se fundamenta em princípios que visam facilitar a interação e a comunicação entre sistemas distribuídos, especialmente na web. REST é amplamente utilizado para criar APIs que permitem que diferentes aplicativos se comuniquem de maneira eficiente e escalável.
 
-### CORS
-**O que é: **
-**Como funciona: **
+**Como funciona:**
+
+### RECURSOS
+Os recursos são identificáveis por URIs (Uniform Resource Identifiers). Cada recurso tem uma URL única, que permite o acesso e a manipulação.
+
+### MÉTODOS HTTP
+
+As interações com esses recursos são realizadas por meio de métodos HTTP, como GET (para recuperar dados), POST (para criar novos recursos), PUT (para atualizar recursos existentes), PATCH (para atualizações parciais) e DELETE (para remover recursos).
+
+### STATELESS
+
+Uma característica importante do REST é que ele é stateless, ou seja, cada requisição é independente e contém todas as informações necessárias, sem que o servidor armazene estado entre elas.
+
+### REPRESENTAÇÕES
+
+Os dados podem ser retornados em diferentes formatos, como JSON ou XML, permitindo flexibilidade na comunicação entre cliente e servidor.
+
+### CACHE
+
+O uso de cache pode otimizar o desempenho das APIs, armazenando respostas e evitando requisições desnecessárias ao servidor.
+
+### HATEOAS
+
+O conceito de HATEOAS permite que o servidor forneça links nas respostas, ajudando os clientes a descobrir interações disponíveis e facilitando a navegação pela API.
+
